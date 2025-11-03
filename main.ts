@@ -1,6 +1,6 @@
 import { PublicKey } from "@solana/web3.js";
 import * as anchor from "@coral-xyz/anchor";
-import {TimeVault } from "../time-vault/target/types/time_vault.ts"
+import { ProgramOne } from "../program-one/target/types/program_one.ts"
 
 const main = async () => {
 
