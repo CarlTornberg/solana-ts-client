@@ -1,0 +1,16 @@
+Error: Simulation failed. 
+Message: Transaction simulation failed: Error processing Instruction 10: Program failed to complete. 
+Logs: 
+[
+  "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 1192339 compute units",
+  "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+  "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+  "Program log: Instruction: InitializeAccount3",
+  "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 1188455 compute units",
+  "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+  "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 20490 of 1204427 compute units",
+  "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success",
+  "Program ChDn1PMciMVbLKoQXe2qHo6HtLCikFsDaKC7fJgfaPNc consumed 66370 of 1247872 compute units",
+  "Program ChDn1PMciMVbLKoQXe2qHo6HtLCikFsDaKC7fJgfaPNc failed: Access violation in stack frame 5 at address 0x200005ff8 of size 8"
+]. 
+Catch the `SendTransactionError` and call `getLogs()` on it for full details.
